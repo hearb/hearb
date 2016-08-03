@@ -5,14 +5,14 @@ build:
       - script:
         name: go get
         code: |
-          go get -d -t -v ./server/...
+          go get -d -t -v ./...
 
       - script:
         name: go test
         code: |
-          go test -v ./server/...
+          go test -v ./...
 
       - script:
         name: go build
         code: |
-          go build -v ./server/hearb.go
+          go build hearb.go
