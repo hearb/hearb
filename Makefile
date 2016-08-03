@@ -13,11 +13,11 @@ mklink:                                 ## GOPATHにシンボリックリンク�
 deps:
 	cd $(PROJ_PATH); go get -d -t -v ./...
 
-run: mklink deps                        ## サーバ起動
+run:                                    ## サーバ起動
 	cd $(PROJ_PATH); go run hearb.go
 
-test: mklink deps                       ## テスト
+test:                                   ## テスト
 	cd $(PROJ_PATH); go test -v ./...
 
-build: mklink deps                      ## ビルド
+build:                                  ## ビルド
 	cd $(PROJ_PATH); go build hearb.go
