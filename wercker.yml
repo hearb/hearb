@@ -1,0 +1,15 @@
+box: golang
+
+build:
+  steps:
+    wercker/golint
+
+      - script:
+        name: go test
+        code: |
+          make test
+
+      - script:
+        name: go build
+        code: |
+          make build
