@@ -3,6 +3,11 @@ box: golang
 build:
   steps:
       - script:
+        name: go get
+        code: |
+          make deps
+
+      - script:
         name: go test
         code: |
           make test
