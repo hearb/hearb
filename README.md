@@ -23,7 +23,7 @@ HAL東京の学生による非公式プロジェクトです。
 
 ## Documents
 
-[Wiki](/hearb/hearb/wiki)
+[Wiki](https://github.com/hearb/hearb/wiki)
 
 ## License
 
