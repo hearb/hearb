@@ -1,0 +1,4 @@
+development:
+  dialect: mysql
+  datasource: user:password@tcp(localhost:3306)/hearb?parseTime=true&collation=utf8mb4_unicode_ci
+  dir: migrations
