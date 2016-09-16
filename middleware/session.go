@@ -1,8 +1,6 @@
 package middleware
 
-import (
-	"github.com/labstack/echo"
-)
+import "github.com/labstack/echo"
 
 func Session() echo.MiddlewareFunc {
 	return func(next echo.HandlerFunc) echo.HandlerFunc {
